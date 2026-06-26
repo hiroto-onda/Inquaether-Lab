@@ -64,6 +64,10 @@ https://github.com/hiroto-onda
 
 - [Mission Statement](docs/mission_statement.md)
 
+### Research Highlights
+
+- [Research Highlights](docs/research_highlights.md)
+
 ### Research Overviews
 
 - [CI Theory Overview](docs/ci_theory_overview.md)
@@ -80,3 +84,4 @@ https://github.com/hiroto-onda
 - [Research Timeline](docs/research_timeline.md)
 - [Research Roadmap](docs/roadmap.md)
 - [Publications](docs/publications.md)
+
