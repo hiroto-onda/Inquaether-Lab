@@ -60,7 +60,23 @@ https://github.com/hiroto-onda
 
 ## Public Documentation
 
+### Mission
+
+- [Mission Statement](docs/mission_statement.md)
+
+### Research Overviews
+
 - [CI Theory Overview](docs/ci_theory_overview.md)
 - [Prototype Exogram Framework Overview](docs/exogram_overview.md)
+
+### Research Governance
+
+- [Research Scope](docs/research_scope.md)
+- [Research Principles](docs/research_principles.md)
+- [Frequently Asked Questions (FAQ)](docs/faq.md)
+
+### Research Development
+
 - [Research Timeline](docs/research_timeline.md)
+- [Research Roadmap](docs/roadmap.md)
 - [Publications](docs/publications.md)
