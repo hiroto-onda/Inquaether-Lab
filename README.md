@@ -77,6 +77,8 @@ https://github.com/hiroto-onda
 
 - [Research Scope](docs/research_scope.md)
 - [Research Principles](docs/research_principles.md)
+- [Ethics Statement](docs/ethics_statement.md)
+- [Collaboration Policy](docs/collaboration_policy.md)
 - [Frequently Asked Questions (FAQ)](docs/faq.md)
 
 ### Research Development
