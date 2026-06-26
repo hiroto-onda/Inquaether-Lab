@@ -55,3 +55,12 @@ Research code, experimental implementations, and unpublished materials are maint
 
 GitHub Profile:
 https://github.com/hiroto-onda
+
+---
+
+## Public Documentation
+
+- [CI Theory Overview](docs/ci_theory_overview.md)
+- [Prototype Exogram Framework Overview](docs/exogram_overview.md)
+- [Research Timeline](docs/research_timeline.md)
+- [Publications](docs/publications.md)
