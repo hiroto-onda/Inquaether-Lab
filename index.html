@@ -22,6 +22,7 @@ body {
 
 .hero img {
   width: 320px;
+  max-width: 80vw;
 }
 
 .hero-subtitle {
@@ -31,6 +32,7 @@ body {
   color: #cccccc;
   font-size: 0.8rem;
   font-weight: 300;
+  max-width: calc(100% - 120px);
 }
 
 .content {
@@ -66,7 +68,43 @@ a {
   line-height: 1.6;
 }
 
+.contact-link {
+  display: inline-block;
+  border: 1px solid #d0d7de;
+  border-radius: 4px;
+  padding: 7px 10px;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.site-footer {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+  color: #666;
+  font-size: 0.85rem;
+}
+
 @media (max-width: 640px) {
+  .hero {
+    padding: 72px 20px 56px;
+  }
+
+  .hero img {
+    width: 260px;
+    max-width: 78vw;
+  }
+
+  .hero-subtitle {
+    position: static;
+    max-width: 260px;
+    margin: 24px auto 0;
+    line-height: 1.4;
+  }
+
   .documentation-grid {
     grid-template-columns: 1fr;
   }
@@ -166,11 +204,15 @@ a {
 
     <p>
       <strong>GitHub:</strong>
-      <a href="https://github.com/hiroto-onda">https://github.com/hiroto-onda</a>
+      <a class="contact-link" href="https://github.com/hiroto-onda">https://github.com/hiroto-onda</a>
     </p>
   </section>
 
 </section>
+
+<footer class="site-footer">
+  © Inquaether Lab
+</footer>
 
 </body>
 </html>
