@@ -77,6 +77,35 @@ a {
   line-height: 1.6;
 }
 
+.framework-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.outputs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.framework-card,
+.output-card {
+  border: 1px solid #d0d7de;
+  padding: 16px;
+  background: #f5f5f5;
+}
+
+.framework-card h3,
+.output-card h3 {
+  margin-top: 0;
+}
+
+.framework-card p,
+.output-card p {
+  line-height: 1.55;
+}
+
 .documentation-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -138,6 +167,11 @@ a {
   .documentation-grid {
     grid-template-columns: 1fr;
   }
+
+  .framework-grid,
+  .outputs-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 </head>
@@ -187,6 +221,18 @@ a {
 
   <hr>
 
+  <section class="founder-section">
+    <h2>Founder / About</h2>
+
+    <p>
+      Inquaether Lab is led by an independent researcher and founder focused on
+      Human-AI Interaction, cognitive support systems, and AI systems that
+      support self-understanding.
+    </p>
+  </section>
+
+  <hr>
+
   <section id="research">
     <h2>Research Areas</h2>
 
@@ -201,17 +247,31 @@ a {
 
     <h2>Core Frameworks</h2>
 
-    <h3>CI Theory</h3>
-    <p>
-      An experimental framework for observing and organizing
-      human interpretation processes and interaction structures.
-    </p>
+    <div class="framework-grid">
+      <section class="framework-card">
+        <h3>CI Theory</h3>
+        <p>
+          An experimental framework for observing and organizing
+          human interpretation processes and interaction structures.
+        </p>
+      </section>
 
-    <h3>Prototype Exogram Framework</h3>
-    <p>
-      An experimental framework for investigating patterns of
-      interpretation and interaction in Human-AI Interaction.
-    </p>
+      <section class="framework-card">
+        <h3>Prototype Exogram Framework</h3>
+        <p>
+          An experimental framework for investigating patterns of
+          interpretation and interaction in Human-AI Interaction.
+        </p>
+      </section>
+
+      <section class="framework-card">
+        <h3>Research Principles</h3>
+        <p>
+          Public research principles supporting safe and meaningful
+          Human-AI collaboration.
+        </p>
+      </section>
+    </div>
   </section>
 
   <hr>
@@ -238,12 +298,44 @@ a {
   <hr>
 
   <section class="updates-section">
-    <h2>Latest Updates</h2>
+    <h2>Research Updates</h2>
+
+    <p>
+      This section records public research and website development milestones.
+    </p>
 
     <ul>
       <li>2026-06-27 — Official research website launched.</li>
       <li>2026-06-27 — Public documentation portal and research governance materials added.</li>
     </ul>
+  </section>
+
+  <hr>
+
+  <section class="outputs-section">
+    <h2>Publications and Outputs</h2>
+
+    <div class="outputs-grid">
+      <section class="output-card">
+        <h3>Public Articles</h3>
+        <p>High-level public writing related to Inquaether Lab research themes.</p>
+      </section>
+
+      <section class="output-card">
+        <h3>Research Notes</h3>
+        <p>Concise notes documenting research direction, concepts, and open questions.</p>
+      </section>
+
+      <section class="output-card">
+        <h3>Presentations</h3>
+        <p>Presentation materials prepared for public communication and external review.</p>
+      </section>
+
+      <section class="output-card">
+        <h3>Future Publications</h3>
+        <p>Planned outputs will be listed as research materials are prepared for release.</p>
+      </section>
+    </div>
   </section>
 
   <hr>
