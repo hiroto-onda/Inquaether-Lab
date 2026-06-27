@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/logo.png" width="350" alt="Inquaether Lab Logo">
+</p>
+
+
 # Inquaether Lab
 
 Independent Human-AI Interaction Research Lab
