@@ -46,6 +46,31 @@ hr {
 a {
   color: #0969da;
 }
+
+.section-intro {
+  line-height: 1.6;
+}
+
+.documentation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 24px;
+  padding-left: 20px;
+}
+
+.documentation-grid li {
+  line-height: 1.45;
+}
+
+.contact-section p {
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .documentation-grid {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 </head>
 
@@ -63,11 +88,25 @@ a {
 
   <h1>Inquaether Lab</h1>
 
-  <p>
+  <p class="section-intro">
     Independent Human-AI Interaction Research Lab exploring
     Human-AI Interaction (HAI), cognitive support systems,
     and AI systems that support self-understanding.
   </p>
+
+  <hr>
+
+  <section class="about-section">
+    <h2>About Inquaether Lab</h2>
+
+    <p>
+      Inquaether Lab is an independent research initiative focused on
+      Human-AI Interaction and the design of AI systems that help people
+      reflect, interpret, and collaborate more meaningfully. The lab explores
+      conceptual frameworks, prototypes, and public research documentation
+      for cognitive support and self-understanding.
+    </p>
+  </section>
 
   <hr>
 
@@ -100,7 +139,7 @@ a {
 
   <h2>Public Documentation</h2>
 
-  <ul>
+  <ul class="documentation-grid">
     <li><a href="docs/mission_statement.md">Mission Statement</a></li>
     <li><a href="docs/research_highlights.md">Research Highlights</a></li>
     <li><a href="docs/ci_theory_overview.md">CI Theory Overview</a></li>
@@ -117,12 +156,19 @@ a {
 
   <hr>
 
-  <h2>Contact</h2>
+  <section class="contact-section">
+    <h2>Contact</h2>
 
-  <p>
-    GitHub Profile:
-    <a href="https://github.com/hiroto-onda">https://github.com/hiroto-onda</a>
-  </p>
+    <p>
+      For research updates, public documentation, and project activity, visit
+      the Inquaether Lab GitHub profile.
+    </p>
+
+    <p>
+      <strong>GitHub:</strong>
+      <a href="https://github.com/hiroto-onda">https://github.com/hiroto-onda</a>
+    </p>
+  </section>
 
 </section>
 
