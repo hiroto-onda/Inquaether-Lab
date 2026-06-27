@@ -89,20 +89,38 @@ a {
   gap: 16px;
 }
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
 .framework-card,
-.output-card {
+.output-card,
+.project-card,
+.support-card {
   border: 1px solid #d0d7de;
   padding: 16px;
   background: #f5f5f5;
 }
 
 .framework-card h3,
-.output-card h3 {
+.output-card h3,
+.project-card h3,
+.support-card h3 {
   margin-top: 0;
 }
 
 .framework-card p,
-.output-card p {
+.output-card p,
+.project-card p,
+.support-card p {
   line-height: 1.55;
 }
 
@@ -169,7 +187,9 @@ a {
   }
 
   .framework-grid,
-  .outputs-grid {
+  .outputs-grid,
+  .projects-grid,
+  .support-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -297,6 +317,24 @@ a {
 
   <hr>
 
+  <section class="featured-documents-section">
+    <h2>Featured Documents</h2>
+
+    <p>
+      Start here for a concise overview of Inquaether Lab's mission, research
+      direction, and core frameworks.
+    </p>
+
+    <ul class="documentation-grid">
+      <li><a href="docs/mission_statement.md">Mission Statement</a></li>
+      <li><a href="docs/research_highlights.md">Research Highlights</a></li>
+      <li><a href="docs/ci_theory_overview.md">CI Theory Overview</a></li>
+      <li><a href="docs/exogram_overview.md">Prototype Exogram Framework Overview</a></li>
+    </ul>
+  </section>
+
+  <hr>
+
   <section class="updates-section">
     <h2>Research Updates</h2>
 
@@ -308,6 +346,51 @@ a {
       <li>2026-06-27 — Official research website launched.</li>
       <li>2026-06-27 — Public documentation portal and research governance materials added.</li>
     </ul>
+  </section>
+
+  <hr>
+
+  <section class="timeline-section">
+    <h2>Research Timeline</h2>
+
+    <ul>
+      <li>2025 — Research initiated</li>
+      <li>2026 — Official website launched</li>
+      <li>2026 — Public documentation established</li>
+      <li>2026 — Prototype Exogram implementation reviews</li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <section class="projects-section">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+      <section class="project-card">
+        <h3>CI Theory</h3>
+        <p>
+          Development of an experimental framework for observing and organizing
+          human interpretation processes and interaction structures.
+        </p>
+      </section>
+
+      <section class="project-card">
+        <h3>Prototype Exogram Framework</h3>
+        <p>
+          Development and review of a prototype framework for investigating
+          interpretation and interaction patterns in Human-AI Interaction.
+        </p>
+      </section>
+
+      <section class="project-card">
+        <h3>Research Website</h3>
+        <p>
+          Public website and documentation portal for sharing research direction,
+          governance materials, and project updates.
+        </p>
+      </section>
+    </div>
   </section>
 
   <hr>
@@ -334,6 +417,34 @@ a {
       <section class="output-card">
         <h3>Future Publications</h3>
         <p>Planned outputs will be listed as research materials are prepared for release.</p>
+      </section>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="support-section">
+    <h2>Research Support and Collaboration</h2>
+
+    <div class="support-grid">
+      <section class="support-card">
+        <h3>Research support</h3>
+        <p>Support for independent research development and public documentation.</p>
+      </section>
+
+      <section class="support-card">
+        <h3>Educational collaboration</h3>
+        <p>Collaboration around learning, interpretation, and cognitive support contexts.</p>
+      </section>
+
+      <section class="support-card">
+        <h3>Interdisciplinary dialogue</h3>
+        <p>Dialogue across research, design, education, and Human-AI Interaction topics.</p>
+      </section>
+
+      <section class="support-card">
+        <h3>Human-AI Interaction initiatives</h3>
+        <p>Initiatives focused on safe and meaningful human-AI collaboration.</p>
       </section>
     </div>
   </section>
