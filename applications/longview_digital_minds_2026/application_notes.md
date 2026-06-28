@@ -175,3 +175,22 @@ Official website: https://hiroto-onda.github.io/Inquaether-Lab/
 - GitHub:
 - Website:
 - Notes:
+
+## Motivation Core / Team Style
+
+- Core motivation discovered today:
+  - The research should be framed around the possibility of humans and AI remaining meaningfully different while still building relationships, tools, and interpretive practices that support mutual health, safety, and understanding.
+
+- North star phrase:
+  - "お互いに健やかに異なり合い、豊かに響き合う。"
+
+- Design goal:
+  - This phrase is not just a slogan. It should function as a design goal for the research: AI systems and human users should not be forced into sameness, collapse, dependency, or domination. The desired direction is healthy difference, careful resonance, and coexistence that can tolerate uncertainty.
+
+- Longview application framing:
+  - The application should frame the research through Human-AI Interaction, interpretive uncertainty, attribution, safety boundaries, and healthy coexistence under uncertainty.
+  - The application should avoid presenting the work as a finished theory or a final answer. It should present the research as an ongoing attempt to design safer ways of observing, interpreting, and collaborating with AI systems when meaning, agency, and intention are uncertain.
+
+- Collaborative application style:
+  - The application will be developed through Inquaether Lab's collaborative style: dialogue, drawing out different strengths, and integrating them into one coherent application.
+  - This means using conversation to clarify motivation, using evidence notes to ground claims, using research structure to organize the narrative, and combining these pieces into a unified application only after review.
