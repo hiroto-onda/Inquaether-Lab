@@ -6,7 +6,7 @@ Status: Post-Submission Reflection
 
 This document was created after submission. It is not part of the Emergent Ventures Grant Application and does not amend or replace the historical record in `authoritative_submission_record.md`.
 
-The sections below distinguish recorded submission facts from later reflection. Post-submission wording must not be represented as submitted wording. This retrospective does not predict whether the application will be selected and does not speculate about the Mercatus Center's evaluation.
+The sections below distinguish recorded submission facts, the decision outcome, and later reflection. Post-submission wording must not be represented as submitted wording. This retrospective does not speculate about the reason for the decision or the Mercatus Center's evaluation.
 
 ## Recorded Facts
 
@@ -17,6 +17,15 @@ The sections below distinguish recorded submission facts from later reflection. 
 - No supporting documentation was attached.
 - The application included the multimedia URL `https://hiroto-onda.github.io/Inquaether-Lab/`.
 - The submission confirmation stated: “Thank you for your submission.”
+
+## Decision Outcome
+
+- Decision: Declined
+- Decision received: 2026-07-25 11:29 JST
+- Specific reason: Not provided
+- Reapplication: Future submissions are invited
+
+The notification does not establish a specific reason, review method, or weakness in the proposal. Possible improvements identified after submission must not be treated as explanations for the decision.
 
 ## Post-Submission Reflection
 
@@ -54,12 +63,24 @@ These observations do not represent funder feedback or a prediction of the outco
 
 - No supporting documents were attached at submission, so this record does not contain an attachment set.
 - There were no formal institutional partners at submission.
-- No reviewer questions, decision, or other post-submission correspondence are recorded here.
+- No individual explanation for the decision was provided.
+
+### Possible Future Strengthening Areas
+
+The following are possible future strengthening areas. They are not established reasons for the decision:
+
+- Publish the CI Theory Current State.
+- Produce Prototype Exogram research results.
+- Develop Human–AI Interaction interpretation-risk evaluation.
+- Produce empirical data and evaluation results.
+- Expand public outputs.
+- State the concrete outcomes enabled by funding.
+- Clarify target users, social demand, and the implementation pathway.
 
 ### Follow-Up
 
 - [ ] Preserve any submission screenshots or exported confirmation evidence in a separately identified evidence location.
-- [ ] Record any later correspondence, questions, decision, or funding outcome in a separately dated follow-up note.
+- [ ] Record any later correspondence or future reapplication in a separately dated follow-up note.
 - [ ] Keep later revisions or adapted grant language separate from the authoritative submission record.
 
 ### Reusable Lessons
@@ -70,6 +91,6 @@ These observations do not represent funder feedback or a prediction of the outco
 - Keep budget categories and totals in their submitted wording.
 - Treat later explanations, improved framing, and follow-up materials as new records rather than silent amendments.
 
-## Non-Prediction and Non-Speculation Boundary
+## Non-Speculation Boundary
 
-This retrospective makes no selection prediction. It does not infer the Mercatus Center's assessment, preferences, or likely decision. It also does not treat any text created after submission as part of the application.
+This retrospective does not infer the reason for the decision, the review method, or the Mercatus Center's assessment. It also does not treat any text created after submission as part of the application.
